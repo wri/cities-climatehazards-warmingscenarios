@@ -19,7 +19,7 @@ Models used in this analysis are given in this table.
 
 The files in this repo include
 * **ghsl_500k**, which has the names and latlons of the 996 cities with metropolitan-area population greater than 500,000 according to the [GHSL Urban Centres Database](https://human-settlement.emergency.copernicus.eu/ghs_stat_ucdb2015mt_r2019a.php)
-* **bmcf_[varname]** files, which include for each location the three best models (according to comparison with ERA5 historical data) and calibration functions used to adjust modeled data to better fit the ERA5 data
+* **bmcf_[varname]** files, which include for each location the three best models (according to comparison with [ERA5](https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5) historical data) and calibration functions used to adjust modeled data to better fit the ERA5 data
 * **scenarioyears_v2**, which includes the ten-year intervals we use to represent the warming levels for each of the nine climate models
 *  **allrawdata_v2**, which are the outputs
 * **calculate_climate_hazard_indicators_warming_scenarios_v1** a Jupyter notebook that generates all the estimates
